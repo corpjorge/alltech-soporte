@@ -5,6 +5,23 @@
 </head>
 <body>
 
+
+
+	@livewire('show-users')
+
+
+
+
+
+
+
+
+
+	{{--
+
+
+
+
 	<div class="p-8">
 	  <div class="bg-white flex items-center rounded-full shadow-xl">
 	    <input class="rounded-l-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none" id="search" type="text" placeholder="Search">	    
@@ -47,6 +64,8 @@
 	    </p>
 	  </div>
 	</div>
+
+	--}}
 
 
     @livewireScripts
