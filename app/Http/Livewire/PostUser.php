@@ -7,37 +7,25 @@ use App\Models\User;
 
 class PostUser extends Component
 {
-	public $users;
+	public $name;
+    public $email;
+    public $role_id;
 
     protected $rules = [
-        'users.*.name' => 'required|',
-        
+        'name' => 'required|min:6',
+        'email' => 'required|email',
+        'role_id' => 'required',
     ];
 
-    public function mount()
-    {         
-        $this->users = User::all();
-    }
-
-    public function save()
+    public function submit()
     {
-        $this->validate();
+        $this->validate(); 
 
-        foreach ($this->users as $user) {
-            $user->save();
-        }
-    }
-
-    public function addTodo($id, $name)
-    {       
-        return response()->json([
-            'name' => 'Abigail',
-            'state' => 'CA',
+        User::create([
+            'name' => $this->name,
+            'email' => $this->email,
+            'role_id' => $this->role_id,
+            'password' => 'sdfsdf',
         ]);
-    }
-
-    public function render()
-    {
-        return view('livewire.post-user');
     }
 }
