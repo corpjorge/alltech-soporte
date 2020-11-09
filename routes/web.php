@@ -19,4 +19,4 @@ Route::get('/', function () {
     return 'hola';
 });
 
-Route::get('/user/{id}', ShowUsers::class);
+Route::get('/user/{user}', ShowUsers::class);

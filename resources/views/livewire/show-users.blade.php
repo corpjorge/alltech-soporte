@@ -18,3 +18,13 @@
     @endforeach       
   </tbody>
 </table>
+
+
+
+
+<livewire:post-user/>
+
+<div>
+    {{ $message ?? '' }}
+    <button wire:click="$set('message', 'Hello')">Say Hi</button>
+</div>

@@ -10,8 +10,6 @@ class ShowUsers extends Component
 
 	public $user;
 
-	public User $user;
-
     public function render()
     {
         return view('livewire.show-users', [
@@ -19,13 +17,10 @@ class ShowUsers extends Component
         ]);
     }
 
-    public function mount($id)
+    public function mount(User $user)
     {
-        $this->user = User::find($id);
+         
+        $this->user = $user;
     }
 
-    public function delete()
-    {
-        $this->user->delete();
-    }
 }
