@@ -16,7 +16,9 @@ use App\Http\Livewire\ShowUsers;
 */
 
 Route::get('/', function () {
-    return 'hola';
+    return view('welcome');
 });
 
-Route::get('/user/{user}', ShowUsers::class);
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');

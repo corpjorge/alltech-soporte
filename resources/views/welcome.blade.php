@@ -6,37 +6,25 @@
 <body>
 
 
+<x-jet-confirmation-modal wire:model="confirmingUserDeletion">
+    <x-slot name="title">
+        Delete Account
+    </x-slot>
 
-	@livewire('show-users')
+    <x-slot name="content">
+        Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted.
+    </x-slot>
 
+    <x-slot name="footer">
+        <x-jet-secondary-button wire:click="$toggle('confirmingUserDeletion')" wire:loading.attr="disabled">
+            Nevermind
+        </x-jet-secondary-button>
 
-
-
-
-
-
-
-
-	{{--
-
-
-
-
-	<div class="p-8">
-	  <div class="bg-white flex items-center rounded-full shadow-xl">
-	    <input class="rounded-l-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none" id="search" type="text" placeholder="Search">	    
-	    <div class="p-4">
-	      <button class="bg-blue-500 text-white rounded-full p-2 hover:bg-blue-400 focus:outline-none w-12 h-12 flex items-center justify-center">
-	        icon
-	      </button>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-
-	
-
-	--}}
+        <x-jet-danger-button class="ml-2" wire:click="deleteUser" wire:loading.attr="disabled">
+            Delete Account
+        </x-jet-danger-button>
+    </x-slot>
+</x-jet-confirmation-modal>
 
 
     @livewireScripts
