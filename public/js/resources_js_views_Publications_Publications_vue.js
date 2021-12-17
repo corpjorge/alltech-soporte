@@ -749,7 +749,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, "\n.check[data-v-32c45807] {\r\n    border-style: solid;\r\n    border-color: #1a1717;\r\n    border-radius: 1rem;\n}\r\n\r\n", ""]);
+exports.push([module.id, "\n.check[data-v-32c45807] {\n    border-style: solid;\n    border-color: #1a1717;\n    border-radius: 1rem;\n}\n\n", ""]);
 // Exports
 module.exports = exports;
 

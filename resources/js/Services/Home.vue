@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12 col-lg-8 mx-auto my-5">
                     <div class="multisteps-form__progress">
-                        Soporte FYCLS
+                        Soporte
                     </div>
                 </div>
             </div>

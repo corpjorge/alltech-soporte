@@ -1968,7 +1968,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   "class": "col-12 col-lg-8 mx-auto my-5"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "multisteps-form__progress"
-}, " Soporte FYCLS ")])], -1
+}, " Soporte ")])], -1
 /* HOISTED */
 );
 

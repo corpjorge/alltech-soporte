@@ -18057,7 +18057,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, "\n.router-link-active[data-v-2053f31b]{\r\n    color: #252f40;\r\n    background-color: #fff;\r\n    font-weight: 600;\r\n    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);\r\n    border-radius: 0.5rem;\n}\n.navbar-vertical .navbar-nav>.nav-item .nav-link.router-link-active .icon[data-v-2053f31b] {\r\n    background-image: linear-gradient(\r\n        310deg\r\n        , #cb0c9f 0%, #cb0c9f 100%);\r\n    fill: #fff;\n}\n.navbar-vertical .navbar-nav > .nav-item .nav-link.router-link-active .icon svg .color-background[data-v-2053f31b], .navbar-vertical .navbar-nav > .nav-item .nav-link.router-link-active .icon svg .color-foreground[data-v-2053f31b] {\r\n    fill: #fff;\n}\r\n\r\n\r\n\r\n", ""]);
+exports.push([module.id, "\n.router-link-active[data-v-2053f31b]{\n    color: #252f40;\n    background-color: #fff;\n    font-weight: 600;\n    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);\n    border-radius: 0.5rem;\n}\n.navbar-vertical .navbar-nav>.nav-item .nav-link.router-link-active .icon[data-v-2053f31b] {\n    background-image: linear-gradient(\n        310deg\n        , #cb0c9f 0%, #cb0c9f 100%);\n    fill: #fff;\n}\n.navbar-vertical .navbar-nav > .nav-item .nav-link.router-link-active .icon svg .color-background[data-v-2053f31b], .navbar-vertical .navbar-nav > .nav-item .nav-link.router-link-active .icon svg .color-foreground[data-v-2053f31b] {\n    fill: #fff;\n}\n\n\n\n", ""]);
 // Exports
 module.exports = exports;
 
